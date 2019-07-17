@@ -1,0 +1,417 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*common*/
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*header*/
+header {
+    height: 75px;
+    background-color: #006f84;
+    border: 1px solid #253342;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.memu {
+    float: right;
+}
+
+    .memu li {
+        float: left;
+    }
+
+    .memu a {
+        line-height: 75px;
+        color: white;
+        padding: 0 15px;
+        display: block;
+    }
+
+
+
+
+
+.pic {
+    position: relative;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-image: url(../images/me.jpg);
+}
+
+
+
+.pic-cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%,-20%);
+    color: black;
+    z-index: 2;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1.2em;
+    font-size: 1.0em;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+
+figure {
+    margin: 20px;
+    float: right
+}
+
+
+
+#p1 {
+    font-size: 16.5px;
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+}
+
+#p2 {
+    font-size: 16.5px;
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+}
+
+#p3 {
+    font-size: 16.5px;
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+}
+
+#p4 {
+    font-size: 16.5px;
+    font-family: 'Times New Roman';
+    line-height: 1.5;
+}
+
+
+#wrapper1 {
+    margin: 150px;
+    border: 100px,100px;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+
+#square {
+    list-style-type: square;
+}
+
+#form-group {
+    list-style-type: square;
+}
+
+
+.body {
+    font-size: 14px;
+    font-family: "맑은 고딕";
+}
+
+.a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .a:hover {
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+
+#board {
+    width: 800px;
+    margin: 150px auto 10px;
+}
+
+
+.list dl dt {
+    float: left;
+}
+
+.list dl dd {
+    float: left;
+}
+
+.list .num {
+    width: 60px;
+}
+
+.list .sub {
+    width: 410px;
+}
+
+.list .name {
+    width: 120px;
+}
+
+.list .data {
+    width: 85px;
+}
+
+.list .count {
+    width: 60px;
+}
+
+
+.list dt {
+    width: 150px;
+    text-align: center;
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+    padding: 10px 5px;
+}
+
+.list dd {
+    width: 150px;
+    text-align: center;
+    padding: 8px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+    .list dd.sub {
+        text-align: left;
+        padding-left: 5px;
+        width: 410px;
+    }
+
+#board .list-bot {
+    clear: both;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+
+div {
+    line-height: 35px;
+}
+
+.dd {
+    position: relative;
+}
+
+
+
+#my_reg_form {
+    background-color: #002244;
+    width: 700px;
+    color: #ffffff;
+    height: 800px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+    #my_reg_form #mytable {
+        background-color: #ffffff;
+        border: 0px;
+        width: 640px;
+        color: black;
+        height: 750px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+        #my_reg_form #mytable #left {
+            text-align: center;
+        }
+
+    #my_reg_form #w, #my_reg_form #reading, #my_reg_form #playing, #my_reg_form #traveling {
+        text-align: center;
+    }
+
+
+    #my_reg_form #user_name {
+        width: 365px;
+    }
+
+    #my_reg_form #user_Retype_password {
+        width: 365px;
+    }
+
+    #my_reg_form #user_password {
+        width: 365px;
+    }
+
+    #my_reg_form #name {
+        width: 365px;
+    }
+
+    #my_reg_form #last_name {
+        width: 365px;
+    }
+
+    #my_reg_form #comment {
+        overflow: hidden;
+    }
+
+.fieldlabel {
+    float: left;
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.btnfield {
+    margin: 20px 0 0 130px;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
+
+.article-container {
+    margin: 0;
+    padding: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.article a.com {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .article a.com:hover {
+        text-decoration: none;
+    }
+
+    .article a.com span {
+        font-weight: bold;
+    }
+
+
+#page-container2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5em;
+}
+
+article1 {
+    background-color: white;
+    padding: 1em;
+    padding-top: 1em;
+    position: relative;
+    text-align: left;
+}
+
+
+.clr {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.content {
+    padding: 0;
+}
+
+.content_resize {
+    margin: 0 auto;
+    padding: 24px 0 40px;
+    width: 960px;
+}
+
+.content .mainbar {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 680px;
+}
+
+    .content .mainbar h2 {
+        margin-bottom: 0;
+    }
+
+    .content .mainbar div.img {
+        padding: 12px 0;
+        float: left;
+    }
+
+    .content .mainbar img.fl {
+        margin: 0;
+        border: 1px solid #fdf4d9;
+    }
+
+    .content .mainbar .article {
+        margin: 0 0 8px;
+        padding: 0 20px 16px;
+        background: no-repeat 20px top;
+    }
+
+    .content .mainbar .post_content strong {
+        color: #585757;
+    }

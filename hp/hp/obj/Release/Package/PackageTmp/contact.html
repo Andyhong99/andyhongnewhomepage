@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Andy Homepage Let's contact</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="default.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <link rel="shortcut icon" href="https://andyhong.azurewebsites.net/images/favicon.ico" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <ul class="memu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.8542316312096!2d-79.37871208432003!3d43.672001359232375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb53882dd375%3A0xe48abdb1a40e984f!2striOS+College+Business+Technology+Healthcare+-+Toronto+Campus!5e0!3m2!1sko!2sca!4v1553783052485" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <form action="results.php" method="post">
+        <form name="registerform" method="post" enctype="multipart/form-data" action="./register">
+            <div class="fieldlabel"><label for="name">First Name</label></div>
+            <div class="formfield"><input id="name" name="first_name" class="text" maxlength="20" value=""></div>
+            <div class="fieldlabel"><label for="name">Last Name</label></div>
+            <div class="formfield"><input id="name" name="last_name" class="text" maxlength="20" autocomplete="off"></div>
+            <div class="fieldlabel"><label for="company">Company</label></div>
+            <div class="formfield"><input id="website" name="company" class="text" maxlength="20" value=""></div>
+            <div class="fieldlabel"><label for="email">E-mail</label></div>
+            <div class="formfield"><input id="email" name="email" class="text" maxlength="20" value=""></div>
+            <div class="fieldlabel"><label for="phone">Phone</label></div>
+            <div class="formfield"><input id="phone" name="phone" class="text" maxlength="20" autocomplete="off"></div>
+            <div class="fieldlabel"><label for="message">Requirement</label></div>
+            <textarea id="message" name="requirement" rows="10" cols="50"></textarea>
+
+
+
+            <div class="btnfield">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </form>
+    <footer>
+        <p>
+            Copyright &copy; 2019 | Designed by <a href="andyhong99@yahoo.com"> Andy Hong </a>
+    </footer>
+</body>
+
+
+
+
+</html>
